@@ -1,0 +1,59 @@
+Python
+
+pycache/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+Jupyter
+
+.ipynb_checkpoints/
+
+Testing and coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+Build artifacts
+
+build/
+dist/
+
+macOS and IDE files
+
+.DS_Store
+.AppleDouble
+.vscode/
+.idea/
+*.swp
+*.swo
+
+Local dataset (download separately)
+
+superstore-sales.csv
+
+Generated exports
+
+superstore_filtered.csv
+section1_answers.csv
+
+Dashboard exports
+
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+Logs
+
+*.log
